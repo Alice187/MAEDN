@@ -335,28 +335,28 @@ while True:
         
         if event.type == pygame.MOUSEBUTTONUP and click1 == 1 and movec[0] == True:
             pers[0] = 0
-            if together[turn[0]][0] > 100 and dicec[0] != 6:
+            if together[turn[0]][0] > 100 and diced[0] != 6:
                 continue
             awaitmove()
             chul()
             continue
         elif event.type == pygame.MOUSEBUTTONUP and click2 == 1 and movec[0] == True:
             pers[0] = 1
-            if together[turn[0]][1] > 100 and dicec[0] != 6:
+            if together[turn[0]][1] > 100 and diced[0] != 6:
                 continue
             awaitmove()
             chul()
             continue
         elif event.type == pygame.MOUSEBUTTONUP and click3 == 1 and movec[0] == True:
             pers[0] = 2
-            if together[turn[0]][2] > 100 and dicec[0] != 6:
+            if together[turn[0]][2] > 100 and diced[0] != 6:
                 continue
             awaitmove()
             chul()
             continue
         elif event.type == pygame.MOUSEBUTTONUP and click4 == 1 and movec[0] == True:
             pers[0] = 3
-            if together[turn[0]][3] > 100 and dicec[0] != 6:
+            if together[turn[0]][3] > 100 and diced[0] != 6:
                 continue
             awaitmove()
             chul()
